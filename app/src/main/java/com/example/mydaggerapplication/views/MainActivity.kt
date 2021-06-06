@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //acceder a la instancia ApplicationComponent y a su vez a la instancia del objeto profile.
         profile = injector.profile
         initUI()
     }
